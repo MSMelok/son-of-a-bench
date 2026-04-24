@@ -433,6 +433,53 @@ p { margin: 0 0 1em; }
   font-size: 15px;
   color: var(--ink-2);
 }
+
+/* Two-captain cards in About section */
+.captains {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin-block: 24px 28px;
+}
+.captain {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  border-inline-start: 4px solid var(--red);
+  padding: 18px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: transform .2s var(--ease), box-shadow .2s var(--ease);
+}
+.captain:hover { transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+.captain__role {
+  display: inline-block;
+  align-self: flex-start;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 99px;
+}
+.captain__name {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--ink);
+  margin-top: 2px;
+}
+.captain__bio {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.65;
+  margin-top: 2px;
+}
+.captain--training { border-inline-start-color: var(--red); }
+.captain--training .captain__role { color: var(--red); background: var(--soft-red-wash); }
+.captain--nutrition { border-inline-start-color: var(--gold); }
+.captain--nutrition .captain__role { color: var(--gold); background: var(--gold-soft); }
 .check {
   display: inline-flex;
   align-items: center;

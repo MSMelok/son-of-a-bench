@@ -1,10 +1,10 @@
-# Son of a Bench — Coach Ammar Shaban
+# Son of a Bench — Online Coaching Team
 
-A modern, single-page Arabic landing site for online fitness coach **Ammar Shaban** and the SON OF A BENCH coaching team. Built with hand-written HTML, CSS, and a sprinkle of vanilla JavaScript — no framework, no build step, no dependencies.
+A modern, single-page Arabic landing site for the **SON OF A BENCH** online coaching team — Captain **Ammar Shaban** for training, Captain **Amr** for nutrition. Built with hand-written HTML, CSS, and a sprinkle of vanilla JavaScript — no framework, no build step, no dependencies.
 
-> _"بسعى دايماً إن تجربة التدريب الأونلاين تكون متميزة و ممتعة و مليانة بالفايدة اللي يقدر يستخدمها المشترك بنفسه في باقي حياته، مش مجرد نتيجة في فترة من حياته."_
+> _"بنسعى دايماً إن تجربة التدريب الأونلاين تكون متميزة و ممتعة و مليانة بالفايدة اللي يقدر يستخدمها المشترك بنفسه في باقي حياته، مش مجرد نتيجة في فترة من حياته."_
 >
-> — Coach Ammar's manifesto
+> — The team's manifesto
 
 ---
 
@@ -14,9 +14,9 @@ A modern, single-page Arabic landing site for online fitness coach **Ammar Shaba
 
 ## About
 
-This site presents the coaching offering in Egyptian Arabic with full right-to-left support, anchored in IBM Plex Sans Arabic typography. Every section funnels toward a single conversion goal: starting a WhatsApp conversation with Ammar. The visual identity is light editorial — warm cream backgrounds, crimson accents pulled from the brand logo, and bold display typography for the wordmark.
+This site presents the coaching offering in Egyptian Arabic with full right-to-left support, anchored in IBM Plex Sans Arabic typography. The team is presented as two specialists working in tandem — **Captain Ammar** handles training programs and form correction, **Captain Amr** handles nutrition planning and macro tracking. Every section funnels toward a single conversion goal: starting a WhatsApp conversation with the team. The visual identity is light editorial — warm cream backgrounds, crimson accents pulled from the brand logo, and bold display typography for the wordmark.
 
-The site is intentionally **lead-generation focused**, not e-commerce. Visitors don't checkout — they tap "كلّمنى على واتساب" and start a real conversation.
+The site is intentionally **lead-generation focused**, not e-commerce. Visitors don't checkout — they tap "كلّمنا على واتساب" and start a real conversation.
 
 ## Screenshots
 
@@ -41,8 +41,8 @@ In display order (right-to-left scroll):
 | # | Section | Purpose |
 |---|---|---|
 | 1 | Sticky navbar | Persistent navigation with primary WhatsApp CTA |
-| 2 | Hero | Brand wordmark, manifesto quote, coach photo, primary CTAs |
-| 3 | About the captain | Coaching philosophy and credentials |
+| 2 | Hero | Brand wordmark, team manifesto, lead coach photo, primary CTAs |
+| 3 | About us | Team intro with both captains and their specialties (training / nutrition) |
 | 4 | How it works | Four-step onboarding flow (DM → questionnaire → trial week → start) |
 | 5 | Programs | Golden vs Silver comparison cards, highlighting the daily-vs-weekly difference |
 | 6 | Pricing | Tabbed pricing tables for all 12 plan combinations |
@@ -181,9 +181,14 @@ Tested and working in:
 
 Uses modern CSS (custom properties, logical properties, `aspect-ratio`, `backdrop-filter`) — no support for Internet Explorer or pre-2020 browsers, by design.
 
-## About the coach
+## About the team
 
-**Ammar Shaban** — Online fitness and nutrition coach based in Egypt.
+**SON OF A BENCH** is an online coaching team based in Egypt:
+
+- **Captain Ammar Shaban** — Training programs, form correction, progress tracking
+- **Captain Amr** — Nutrition planning, macro calculation, weekly diet adjustments
+
+Together they deliver the full Golden / Silver coaching package over WhatsApp.
 
 | Channel | Link |
 |---|---|
